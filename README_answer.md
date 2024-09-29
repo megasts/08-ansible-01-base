@@ -130,7 +130,7 @@ local:
 
 ---
 
-Ссылка на репозиторий: [https://github.com/megasts/08-ansible-01-base/blob/master/README_answer.md](https://github.com/megasts/08-ansible-01-base/blob/master/README_answer.md)
+Ссылка на репозиторий: [https://github.com/megasts/08-ansible-01-base/blob/master/](https://github.com/megasts/08-ansible-01-base/blob/master/)
 
 ---
 
