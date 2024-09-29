@@ -10,17 +10,26 @@
 
 1. Попробуйте запустить playbook на окружении из `test.yml`, зафиксируйте значение, которое имеет факт `some_fact` для указанного хоста при выполнении playbook.
 
+----
+
 ```bash
 $ ansible-playbook -i ./playbook/inventory/test.yml ./playbook/site.yml
 ```
 скрин
+![Screenshot1_1](https://github.com/megasts/05-virt-04-docker-in-practice/blob/main/img/Screenshot1_1.png)
 
-
-
+----
 
 2. Найдите файл с переменными (group_vars), в котором задаётся найденное в первом пункте значение, и поменяйте его на `all default fact`.
 
+----
+
 скрин
+![Screenshot1_2](https://github.com/megasts/05-virt-04-docker-in-practice/blob/main/img/Screenshot1_2.png)
+
+![Screenshot1_3](https://github.com/megasts/05-virt-04-docker-in-practice/blob/main/img/Screenshot1_2.png)
+
+----
 
 3. Воспользуйтесь подготовленным (используется `docker`) или создайте собственное окружение для проведения дальнейших испытаний.
 
