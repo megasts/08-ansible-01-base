@@ -10,7 +10,7 @@
 
 1. Попробуйте запустить playbook на окружении из `test.yml`, зафиксируйте значение, которое имеет факт `some_fact` для указанного хоста при выполнении playbook.
 
-----
+---
 
 ```bash
 $ ansible-playbook -i ./playbook/inventory/test.yml ./playbook/site.yml
